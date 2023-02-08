@@ -1,23 +1,40 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "demo-nextjs",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --ext .js,.ts ."
   },
   "dependencies": {
-    "@next/font": "13.1.6",
-    "@types/node": "18.13.0",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "@moralisweb3/next": "^2.11.0",
+    "axios": "^1.2.1",
+    "ethers": "5.6.9",
+    "moralis": "^2.11.0",
+    "next": "12.2.5",
+    "next-auth": "4.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wagmi": "^0.5.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-react-jsx": "^7.19.0",
+    "@moralisweb3/eslint-config": "^1.0.1",
+    "@next/eslint-plugin-next": "^12.2.5",
+    "@types/node": "18.11.11",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "5.45.1",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-plugin-etc": "^2.0.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.3"
   }
 }
